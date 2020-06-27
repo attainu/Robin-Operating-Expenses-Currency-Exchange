@@ -1,8 +1,7 @@
 // Importing necessary 
 
 const customerSchema = require('../models/user')
-const userSign = require('../models/signup')
-const customerSch = require('../models/user')
+
 
 const controller = {
 
