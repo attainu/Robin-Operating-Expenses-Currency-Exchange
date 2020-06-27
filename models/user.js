@@ -47,19 +47,12 @@ let customerSchema = new mongoose.Schema({
         default:Date.now()
         
     },
-    Due_Date_Of_Transaction:{
-        type:Date,
-        default:Date.now()
-    },
+    
     user_id : {
         type : mongoose.Schema.Types.ObjectId,
         ref : "signup"
     },
-    signup : {
-        type : Schema.Types.ObjectId,
-        ref : 'signup'
     
-    }
 },
 {
     timestamps : false
@@ -69,9 +62,5 @@ let customerSchema = new mongoose.Schema({
     
 customerSchema = mongoose.model('Detail',customerSchema);
 
-customerSchema
-    .findOne()
-    .populate('signup')
-    .exec((err,signup) => {
-    })
+
 module.exports = customerSchema;

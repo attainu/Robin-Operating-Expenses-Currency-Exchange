@@ -28,7 +28,7 @@ Bahi Khata Team`,
 //Sending mail to the receipient
 const info = await transport.sendMail(mailOptions);
 
-console.log("Mail sent to: " , options.email)
+//console.log("Mail sent to: " , options.email)
 }
 
 //Generate random 6 digits otp number which is to be sent through email

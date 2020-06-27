@@ -7,15 +7,11 @@ const Schema = mongoose.Schema
 // Create Schema
 
 const UserSignup = new Schema({
-  _id: Schema.Types.ObjectId,
 
   first_name: {
     type: String,
-    minlength : 4,
-    required : true
-   
-    
-  },
+    minlength : 4
+    },
   last_name: {
     type: String
     
@@ -45,10 +41,7 @@ const UserSignup = new Schema({
     type: Date,
     default: Date.now
   },
-  user : {
-    type : Schema.Types.ObjectId,
-    ref : "user"
-  },
+ 
   
 },
 
@@ -60,10 +53,6 @@ const UserSignup = new Schema({
 UserSign= mongoose.model('users', UserSignup)
 
 
-UserSign.findOne({})
-    .populate('user')
-    .exec((err,user) => {
-  
-    })
+
     
 module.exports = UserSign
