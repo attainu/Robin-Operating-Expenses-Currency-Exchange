@@ -6,6 +6,8 @@ const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
 const User = require('../models/signup');
 const { sendEmail, generate_otp } = require("../validation/validation");
+const userSign = require('../models/signup')
+const customerSchema = require('../models/user')
 
 
 
@@ -21,6 +23,7 @@ var controllers = {
         email:req.body.email,
         password: hashedPassword
     })
+    
 
     // console.log(hashedPassword)
     const message = `Welcome to Bahi_Khata Family`
