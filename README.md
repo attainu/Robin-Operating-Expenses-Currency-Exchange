@@ -15,6 +15,12 @@ dotenv to store the passwords and secret keys
 Nodemailer for verifying mail
 Mongoose for all mongodb database functionality
 
+To Install Dependencies:-
+npm install
+
+To run the application
+nodemon index.js
+
 Future Scope:-
 As the web app is totally based on backend, we will be adding front end in near future so that it would look much interactive and neat.
 We will be using features like, signing up with google, facebook with passportjs
