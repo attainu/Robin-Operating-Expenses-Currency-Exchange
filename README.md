@@ -31,4 +31,4 @@ Documents for the routes implementes :-
 https://drive.google.com/file/d/1f00F9k59UBksQnhH_cvvmiDBRoIav1Uj/view?usp=sharing
 
 Deployement on heroku :-
-bahikhataleggers.herokuapp.com.
+http://bahi-khata-ledgers.herokuapp.com/
