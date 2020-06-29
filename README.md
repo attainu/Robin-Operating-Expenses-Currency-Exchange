@@ -19,9 +19,10 @@ To Install Dependencies:-
 npm install
 
 To run the application
-nodemon index.js
+npm start
 
 Future Scope:-
 As the web app is totally based on backend, we will be adding front end in near future so that it would look much interactive and neat.
 We will be using features like, signing up with google, facebook with passportjs
-We will be adding razorpay so that the user would buy the books from our own site also.
+We are also planning for calculating the tax of the user. 
+we will also plan to implement the graph.
