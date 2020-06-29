@@ -1,25 +1,27 @@
+
 # robin-bahi-khata
 
-Technologies used:-
-nodejs - For backend,
-Express js - backend framework
-MongoDB - primary database
-Mongoose - ORM for mongoDB   
+Technologies used:-<br>
+nodejs - For backend,<br>
+Express js - backend framework<br>
+MongoDB , Sequelize<br>
+ 
 
 Npm packages:-
 
-Nodemon to keep the server running
-jsonWebToken to create a token based authentication
-bcryptjs to hash the password
-dotenv to store the passwords and secret keys
-Nodemailer for verifying mail
-Mongoose for all mongodb database functionality
+Nodemon to keep the server running<br>
+jsonWebToken to create a token based authentication<br>
+bcryptjs to hash the password<br>
+
+dotenv to store the passwords and secret keys<br>
+Nodemailer for verifying mail<br>
+Mongoose for all mongodb database functionality<br>
 
 To Install Dependencies:-
-npm install
+npm install<br>
 
-To run the application
-npm start
+To run the application<br>
+npm start<br>
 
 Future Scope:-
 As the web app is totally based on backend, we will be adding front end in near future so that it would look much interactive and neat.
