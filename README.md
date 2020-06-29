@@ -23,14 +23,14 @@ npm install<br>
 To run the application<br>
 npm start<br>
 
-Future Scope:-
-As the web app is totally based on backend, we will be adding front end in near future so that it would look much interactive and neat.
-We will be using features like, signing up with google, facebook with passportjs
-We are also planning for calculating the tax of the user. 
-we will also plan to implement the graph.
+Future Scope:-<br>
+As the web app is totally based on backend, we will be adding front end in near future so that it would look much interactive and neat.<br>
+We will be using features like, signing up with google, facebook with passportjs<br>
+We are also planning for calculating the tax of the user. <br>
+we will also plan to implement the graph.<br>
 
 Documents for the routes implementes :-
-https://drive.google.com/file/d/1f00F9k59UBksQnhH_cvvmiDBRoIav1Uj/view?usp=sharing
+https://drive.google.com/file/d/1f00F9k59UBksQnhH_cvvmiDBRoIav1Uj/view?usp=sharing<br>
 
 Deployement on heroku :-
-http://bahi-khata-ledgers.herokuapp.com/
+http://bahi-khata-ledgers.herokuapp.com/<br>
